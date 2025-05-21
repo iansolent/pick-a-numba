@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 175%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bangers', system-ui;
+  color: rgba(0, 0, 0, 0.829);
+  background-color: rgb(204, 204, 35);
+}
+
+header {
+  position: relative;
+  height: 37vh;
+}
+
+main {
+  height: 200vh;
+  color: rgba(0, 0, 0, 0.829);
+  justify-content: space-around;
+}
+
+.score-label {
+  text-align: center;
+  font-size: 150%;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.question-mark {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.guess {
+  padding-left: 1rem;
+  background: none;
+  border: 7px solid rgb(139, 132, 5);
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  padding: 1.5rem;
+  width: 15rem;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.check {
+  text-align: center;
+  font-size: 2rem;
+  font-family: inherit;
+  position: center;
+  background: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.again {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: inherit;
+  position: center;
+  background: none;
+  margin-left: 8rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.message {
+  text-align: center;
+  font-size: 150%;
+  margin-bottom: 0.2rem;
+}
